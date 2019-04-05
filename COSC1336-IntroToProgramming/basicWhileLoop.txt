@@ -1,0 +1,63 @@
+// Program basicLoop
+// Description: 
+// 	A basic example of a While loop
+// Author: Manuel Ponce
+// Date: 10/4/2016
+// Revised: 
+// 	10/6/2016 
+
+// list libraries used
+
+// Declare global constants
+constant Interger LIMIT = 10
+
+Main Program
+
+    // Declare variables
+    Boolean stayInLoop = True
+    Integer value = 0
+	String pause = ""
+
+    //set up loop
+    stayInLoop = (value < LIMIT)
+    value = 0
+
+    While (stayInLoop)
+	
+		Display "Value is ", value
+	
+		If (value == 0) Then
+
+			Display "Just starting the loop"
+
+		ElseIf (value == 1)
+
+			Display "Finished one loop"
+
+		ElseIf (value == 5)
+
+			Display "Finished five loops"
+			
+		ElseIf (value >= LIMIT)
+			Display "This should not happen"
+
+		Else
+
+			Display "Still looping"
+
+		End If
+
+        Display "Value is ", value
+
+        value = value + 1
+        stayInLoop = (value < LIMIT)
+
+    End While
+	
+	Diplay "After the loop, value is ", value
+	
+	Prompt "Press Enter to continue"
+	Input Pause
+
+End Program
+

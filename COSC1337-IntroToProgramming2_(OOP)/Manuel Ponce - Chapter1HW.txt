@@ -1,0 +1,91 @@
+i. Fill in the Blank and Short Answer
+	
+	1)programmed to do many things
+	2)CPU (Central Processing Unit)
+	3)Control Unit and Arithmeticand Logic Unit (ALU)
+	4)Disk Drive
+	5)Application Software and System Software 
+	6)instructions that tells the computer how to solve a problem or perform a task
+	7)Programming Language 
+	8)Machine Language
+	9)High-Level Languages
+	10)Low-Level Language
+	11)Portability 
+	12)Key Words
+	13)Programmer-Defined Identifiers
+	14) Operators 
+	15)Punctuation
+	16)Syntax
+	17)Variable 
+	18)Defined
+	19)Input, Processin, Output
+	20)Input
+	21)Output
+	22)Hierarchy Chart
+	23)Main memory (RAM) is usually volatile type of memory that is used only for 
+		temporary storage while a program is running. When turned off the RAM is erased.
+		Secondary memory is a type of memory that can hold data for long periods of
+		time - even when there is no powerto the computer.
+	24)System software are programs that control and manage the basic operations of a 
+		computer. Application software are programs that make a computer useful for everyday tasks.
+		These are the programs that people normally spend most of their time running on their computers.
+	25)Syntax error is any error in the rules that must be followed to cunstruct a program
+		(Key wordss, Punctuation, Operator). A Logical Error is an error that gives incorrect 
+		results because it carried out tasks incorrectly.
+		
+ii. Algorithm Workbench
+
+	26)
+	
+		Display User Maximum Credit -------->
+												Get imput for both Max and Used Credit ------>
+		Display User Credit Used ----------->
+																								Display Users Available Credit 
+					
+												Calculate Users availbale Credit ------------>
+														(Max - Used)
+														
+	27)
+	
+		High level Pseudocode
+		
+			User input starting balance
+			User input total dollar amount deposit 
+			User input total dollar amount withdraws
+			Calculate current balance 
+			Display current balance
+			
+		Ditailed Pseudocode
+			
+			Input startingBalance 
+			Input totalDeposits
+			Input totalWithdraws
+			currentBalance = (startingBalance + totalDeposits) - totalWithdraws
+			Display currentBalance
+			
+	28)
+	
+		High level 
+		
+			User input retail price of item 
+			User input sales tax rate
+			Calculate tax amount
+			Calculate the sale total
+			Display tax amount and sales total
+			
+		Ditailed Pseudocode
+			
+			Input retailPrice
+			Input saleTax
+			taxAmount = retailPrice * saleTax
+			totalSale = retailPrice + taxAmount
+			Display taxAmount
+			Display totalSale
+			
+iii. Predict the Output
+
+	29)45
+	30)7
+	31)28
+	32)365
+		

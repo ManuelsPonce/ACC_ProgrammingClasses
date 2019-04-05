@@ -1,0 +1,84 @@
+i. Fill in the blank and short answern1-24
+
+	1) relational 	
+	2) false, true 
+	3) false, true 
+	4) braces
+	5) true, false
+	6)) default
+	7) false 
+	8) true
+	9)!
+	10)lower
+	11) &&
+	12) ||
+	13)block
+	14)integer
+	15)break
+	16)1,0,0,1
+	17) if (y == 0)
+		x = 100;
+	18)if (y == 10)
+		x = 0;
+	   else	
+		x = 10
+	19)  if (score >= 90)
+
+			cout << "Excellent";
+
+		else if (score >= 80)
+
+			cout << "Good"; 
+		else 
+	
+			cout << "Try Harder";
+	20)if (minimum)
+		hours = 10;
+`	21)if (x < y)
+		q = a + b;
+	else
+		q = x * 2;
+
+	22) switch (choice)
+		{
+			case 1: cout << fixed << showpoint << setprecision(2); 
+				break;
+			case 2: 
+			case 3: cout << fixed << showpoint << setprecision(4); 
+				break;
+			case 4: cout << fixed << showpoint << setprecision(6); 
+				break;
+			default : cout << fixed << showpoint << setprecision(8);
+				break;
+		}
+	23) T,F,T
+	24)T,F,T
+
+ii. Algorithm Workbench 25-34
+ 
+25)	if (grade >= 0 && grade <= 100) 
+	  cout << "The number is valid."; 
+26)	 if (temperature >= -50 && temperature <= 150)    
+	   cout << "The number is valid."; 
+27)	 if (hours < 0 || hours > 80)  
+		 cout << "The number is not valid."; 
+28)	if(title1 <= title2)  
+		cout << title1 << " " << title2 << endl; 
+29) if(sales < 10000)
+		commission = .10;
+		else if (sales <= 15000)
+		commission = .15;
+	else
+		commission = .20; 
+30)	if(dept == 5 && price >= 100)
+		discount = .20;
+	else if (price >= 100) 
+		discount = .15;
+	else if(dept == 5) 
+		discount = .10;
+	else 
+		discount = .05; 
+31) (!(x > 20))
+32)should use &&
+33) use ||
+34) Use && because x can not = 2 but = 1 and will always be true

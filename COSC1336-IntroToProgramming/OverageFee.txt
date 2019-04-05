@@ -1,0 +1,35 @@
+// Program OverageFee
+// Description: 
+//  This program calculates the cost of using more than the alloted
+//  minutes per month of a telephone use contract (overage fees)
+// Author: Manuel Ponce 
+// Date: September 15 2016
+// Revised: 
+// 	<revision date> 
+
+// list libraries used
+
+// Declare global constants
+constant Decimal OVERAGE_RATE = 0.35
+
+Main Program
+
+	// Declare variables
+	Interger excessMinutes = 0
+	Decimal overageFee = 0.0
+
+	//1.Get the number of excess minutes as input
+	Display “Enter the number of excess minutes.”
+	Input excessMinutes
+		
+		
+	//2.Calculate the overage fee by
+	//  multiplying the number of excess minutes by OVERAGE_RATE.
+	Set overageFee = excessMinutes * OVERAGE_RATE
+
+
+	//3.Display the overage fee.
+	Display “Your current overage fee is $”, overageFee
+
+
+End Program

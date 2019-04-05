@@ -1,0 +1,591 @@
+Python Pseudocode Program Templates
+
+
+**********************************************************************
+Bare Minimum
+**********************************************************************
+// Program <program name> 
+// Description: 
+// 	<what the program does> 
+// Author: <your name> 
+// Date: <today’s date>
+// Revised: 
+// 	<revision date> 
+
+// list libraries used
+
+// Declare global constants
+
+Main Program
+
+    // Declare variables
+
+
+
+
+End Program
+
+**********************************************************************
+Bare Minimum with Statement Block comments
+**********************************************************************
+// Program <program name> 
+// Description: 
+// 	<what the program does> 
+// Author: <your name> 
+// Date: <today’s date>
+// Revised: 
+// 	<revision date> 
+
+// list libraries used
+
+// Declare global constants
+
+Main Program
+
+    // Declare variables
+
+    // <statement block 1>
+
+    // < statement block 2>
+
+    // < statement block 3>
+
+End Program
+
+**********************************************************************
+If-Else-EndIf
+**********************************************************************
+// Program <program name> 
+// Description: 
+// 	<what the program does> 
+// Author: <your name> 
+// Date: <today’s date>
+// Revised: 
+// 	<revision date> 
+
+// list libraries used
+
+// Declare global constants
+
+Main Program
+
+    // Declare variables
+
+    If (<condition>) Then
+
+        <block of “condition is true” statements>
+
+    Else // <condition is not True>
+
+        <block of “condition is false” statements>
+
+    End If
+
+End Program
+
+**********************************************************************
+If-ElseIf-Else-EndIf
+**********************************************************************
+// Program <program name> 
+// Description: 
+// 	<what the program does> 
+// Author: <your name> 
+// Date: <today’s date>
+// Revised: 
+// 	<revision date> 
+
+// list libraries used
+
+// Declare global constants
+
+Main Program
+
+    // Declare variables
+
+    If (<condition0>) Then
+
+        <block of “condition0 is True” statements>
+
+    ElseIf (<condition1>)
+
+        <block of “condition1 is True” statements>
+
+    ElseIf (<condition2>)
+
+        <block of “condition2 is True” statements>
+
+    Else
+
+        <block of “default” statements>
+
+    End If
+
+End Program
+
+**********************************************************************
+Nested If-EndIf
+**********************************************************************
+// Program <program name> 
+// Description: 
+// 	<what the program does> 
+// Author: <your name> 
+// Date: <today’s date>
+// Revised: 
+// 	<revision date> 
+
+// list libraries used
+
+// Declare global constants
+
+Main Program
+
+    // Declare variables
+
+    If (<condition0>) Then
+    
+        If (<condition1>) Then
+
+            <block of “T and T” statements>
+
+        End If
+	
+    Else 
+
+        <block of “anything else” statements>
+        
+    End If
+
+End Program
+
+
+**********************************************************************
+Compound Condition
+**********************************************************************
+// Program <program name> 
+// Description: 
+// 	<what the program does> 
+// Author: <your name> 
+// Date: <today’s date>
+// Revised: 
+// 	<revision date> 
+
+// list libraries used
+
+// Declare global constants
+
+Main Program
+
+    // Declare variables
+
+    If (<condition0>) AND (<condition1>) Then
+
+        <block of “T and T” statements>
+
+    Else
+
+        <block of “anything else” statements>
+        
+    End If
+
+End Program
+
+**********************************************************************
+Nested If-Else-EndIf
+**********************************************************************
+// Program <program name> 
+// Description: 
+// 	<what the program does> 
+// Author: <your name> 
+// Date: <today’s date>
+// Revised: 
+// 	<revision date> 
+
+// list libraries used
+
+// Declare global constants
+
+Main Program
+
+    // Declare variables
+
+    If (<condition0>) Then
+
+        If (<condition1>) Then
+
+            <block of “T and T” statements>
+
+        Else // condition1 is not True
+
+            <block of “T and F” statements>
+
+        End If
+        
+    Else // <condition0 is not True>
+
+        If (<condition1>) Then
+
+            <block of “F and T” statements>
+
+        Else // condition1 is not True
+
+            <block of “F and F” statements>
+
+        End If
+    End If
+
+End Program
+
+
+**********************************************************************
+Compound If-ElseIf-Else-EndIf
+**********************************************************************
+// Program <program name> 
+// Description: 
+// 	<what the program does> 
+// Author: <your name> 
+// Date: <today’s date>
+// Revised: 
+// 	<revision date> 
+
+// list libraries used
+
+// Declare global constants
+
+Main Program
+
+    // Declare variables
+
+    If (<condition0>) AND (<condition1>) Then
+
+        <block of “T and T” statements>
+
+    ElseIf (<condition0>) AND NOT(<condition1>) Then
+
+        <block of “T and F” statements>
+
+    ElseIf NOT(<condition0>) AND (<condition1>) Then
+
+        <block of “F and T” statements>
+
+    ElseIf NOT(<condition0>) AND NOT(<condition1>) Then
+
+        <block of “F and F” statements>
+
+    Else
+        <block of “default” statements>
+
+    End If
+
+End Program
+
+**********************************************************************
+Other Ways to say True and False
+**********************************************************************
+// Program <program name> 
+// Description: 
+// 	<what the program does> 
+// Author: <your name> 
+// Date: <today’s date>
+// Revised: 
+// 	<revision date> 
+
+// list libraries used
+
+// Declare global constants
+
+Main Program
+
+    // Declare variables
+
+    If (<condition0> == True) AND (<condition1> == True) Then
+
+        <block of “T and T” statements>
+
+    ElseIf (<condition0>) AND (<condition1> != True) Then
+
+        <block of “T and F” statements>
+
+    ElseIf (<condition0> == False) AND (<condition1> ) Then
+
+        <block of “F and T” statements>
+
+    ElseIf (<condition0> != True) AND (<condition1> == False) Then
+
+        <block of “F and F” statements>
+
+    Else
+        <block of “default” statements>
+
+    End If
+
+End Program
+
+// More than one way to say “true”:
+// (<condition>)
+// (<condition> == True)
+// (<condition> != False)
+
+// More than one way to say “false”:
+// (!<condition>)
+// NOT (<condition>)
+// (<condition> == False)
+// (<condition> != True)
+
+
+**********************************************************************
+A Template With a Layout and Example of an Input Validation Loop
+**********************************************************************
+// Program <program name> 
+// Description: 
+// 	<what the program does> 
+// Author: <your name> 
+// Date: <today’s date>
+// Revised: 
+// 	<revision date> 
+
+// list libraries used
+
+// Declare global constants
+
+Main Program
+
+    // Declare variables
+    String myAnswer
+
+    Display "<some prompt>"
+    Input  myAnswer
+    While (myAnswer is not valid)
+
+        Display myAnswer " is not correct.  Please try again."
+        Display "<some prompt>"
+        Input  myAnswer
+		
+    End While
+
+End Program
+
+**********************************************************************
+Example of a validity test
+**********************************************************************
+// Declare variables
+Integer myAnswer
+
+Display “Enter your guess (an integer between 0 and 100) “
+Input myAnswer
+
+While (myAnswer < 0) OR (myAnswer > 100)
+
+    Display myAnswer, " is not in the desired range"
+    Display "Please try again (0 – 100)"
+    Input myAnswer
+
+End While
+
+**********************************************************************
+A Template With a Layout and
+Example of a While Loop
+**********************************************************************
+// Program <program name> 
+// Description: 
+// 	<what the program does> 
+// Author: <your name> 
+// Date: <today’s date>
+// Revised: 
+// 	<revision date> 
+
+// list libraries used
+
+// Declare global constants
+
+Main Program
+
+    // Declare variables
+    Boolean stayInLoop = True
+
+    stayInLoop = <some condition>
+    While (stayInLoop)
+
+        <statements>
+        stayInLoop = <some condition>
+
+    End While
+
+End Program
+
+**********************************************************************
+Example of a While Loop
+**********************************************************************
+// Declare variables
+Boolean stayInLoop = True
+Integer value = 0
+
+stayInLoop = (value < 10)
+
+While (stayInLoop)
+
+    value = value + 1
+    stayInLoop = (value < 10)
+
+End While
+
+**********************************************************************
+A Template With a Layout and
+Example of a For Loop
+**********************************************************************
+// Program <program name> 
+// Description: 
+// 	<what the program does> 
+// Author: <your name> 
+// Date: <today’s date>
+// Revised: 
+// 	<revision date> 
+
+// list libraries used
+
+// Declare global constants
+Constant Integer MAX_VALUE = <some value>
+
+Main Program
+
+    // Declare variables
+    Integer count = 0
+
+    For count from 0 to MAX_VALUE step 1
+
+        <statements>
+
+    End For
+
+End Program
+
+**********************************************************************
+Example of a For Loop
+**********************************************************************
+// Declare variables
+Integer count = 0
+Integer total = 0
+
+For count from 0 to MAX_VALUE-1
+
+    total = total + (count * 3)
+
+End For
+
+Display total
+
+**********************************************************************
+Function Template
+**********************************************************************
+// Function <function name>
+// Description:
+//	<what the function does>
+// Calls:
+//	<names of all functions called, one per line>
+// Parameters:
+//	<names and types of all parameters, one per line>
+// Returns:
+//	<return value>
+
+Function <function name> (<type> <parameter >, <type> <parameter >, <type> Ref <parameter >)
+
+    // Declare local variables
+
+
+    // Return values
+
+End Function
+
+**********************************************************************
+A Template for A Pseudocode Program with a Single Function
+**********************************************************************
+// Program <program name> 
+// Description: 
+// 	<what the program does> 
+// Author: <your name> 
+// Date: <today’s date>
+// Revised: 
+// 	<revision date> 
+// 	<revision date> 
+
+// list libraries used
+
+// Declare global constants
+
+Main Program
+
+    // Declare variables
+
+
+    Call <function name>(<parameter>, <parameter>, <parameter>)
+
+End Program
+
+// Function <function name>
+// Description:
+//	<what the function does>
+// Calls:
+//	<names of all functions called, one per line>
+// Parameters:
+//	<names and types of all parameters, one per line>
+// Returns:
+//	<return value>
+
+Function <function name> (<type> <parameter >, <type> <parameter >, <type> Ref <parameter >)
+
+    // Declare local variables
+
+
+    // Return values
+
+End Function
+
+**********************************************************************
+A Template for A Pseudocode Class Definition
+(generic, but with Python syntax where required)
+**********************************************************************
+// Class Name:
+// Data Attributes:
+// Methods:
+Class <class name>
+
+    // Data Attributes *********************
+
+    // Private attributes: self does not exist outside 
+    Declare __<variable name> = 0
+    Declare __<variable name> = ""
+
+    // Public attributes
+    Declare <variable name> = 0
+    Declare <variable name> = ""
+
+    // Methods ****************************
+
+    // Constructor/Initializer
+    Define Method __init__(self, <other parameters>)
+    
+	self.<variable name> = <some expression>
+	
+    End Method
+
+    // Object State Method
+    Define Method __str__(self)
+    
+	Return <a string describing the values of all attributes>
+	
+    End Method
+
+
+    // Private methods
+    Define Method __<method name>__(self, <other parameters>)
+    
+	self.<variable name> = <some expression>
+	
+    End Method
+
+    // Public methods
+    Define Method <method name>(self, <other parameters>)
+    
+	self.<variable name> = <some expression>
+	
+    End Method
+// End Class

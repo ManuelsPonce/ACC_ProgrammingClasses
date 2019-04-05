@@ -1,0 +1,13 @@
+// A Simple c++ program (// = Comment)
+
+Other comment is /* to */
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+cout<<"programming is great for!";
+return !=0;
+}

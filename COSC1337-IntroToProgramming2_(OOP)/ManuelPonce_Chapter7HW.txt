@@ -1,0 +1,84 @@
+i. Fill in the Blank and Short Answer 1-46
+
+1)Abstract data type
+2)A and B
+3)Procedural and object oriented
+4)Procedural
+5)data and procedures
+6)Instance
+7)instantianting
+8)C
+9)member variables
+10)Member functions
+11)encapsulation
+12)any function inside or outside the class. only inside the class
+13)member variables, member functions
+14)accessor
+15)mutators
+16)inline
+17)class
+18)created
+19)return
+20)default
+21)destroyed
+22)~
+23)default
+24)parameter list
+25)constructor, destructor
+26)i/o
+27)public
+28)private
+29)False. it can be passed and returned from a function
+30)false
+31)separate
+32)canin.h
+33)canine.cpp
+34)member function
+35)public
+36)declare
+37)initialization list, constructor
+38) . 
+39)Inventory trivet = {555, 110};
+40)	Car hotrod(“Ford”, “Mustang”, 2010, 22495.0);
+
+41)	struct TempScale
+	{	double fahrenheit;
+	double celsius;
+	};
+	struct Reading
+	{ int windspeed;
+	 double humidity;
+	 TempScale tempurature;
+	};
+	Reading today; 
+	today.windSpeed = 37;
+	today.humidity = .32;
+	today.temperature.fahrenheit = 32;
+	today.temperature.celsius = 0;
+
+42)	
+
+43)	void inputReading(reading &r)
+	{
+		cout << "Enter the wind speed: ";
+		cin >> r.windSpeed;
+		cout << "Enter the humidity: ";
+		cin >> r.humidity;
+		cout << "Enter the fahrenheit temperature: ";
+		cin >> r.temperature.fahrenheit;
+		cout >> "Enter celsius tempurature: "
+		cin >> r.temperature.celsius;
+	}
+44)
+45)	a. valid
+	b. invalid
+	c. invalid
+	d. valid
+46)
+
+ii. Algorithm Workbench 47-48
+
+47)Inventory(string id = 0, string descrip = "new", int qty = 0)
+{ prodID = id; prodDescription = descrip; qtyInStock = qty; }
+
+48)

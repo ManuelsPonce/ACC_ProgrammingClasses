@@ -1,0 +1,138 @@
+////////////////////////
+/ Lab 4 - Manuel Ponce /
+////////////////////////
+CD Class
+
+//Declare Function Prototype
+	Void EvenOdd
+	Void primeNumber
+	Bolean isEven
+	Bolean isPrime
+
+Main Function
+1.	Call getMainMenuOption() to get first option
+2.	While option is not 7 (quit)
+		if option is 1 call readCD()
+		else if option is 2 call displayCollection()
+		else if option is 3 call sortCollection()
+		else if option is 4 call findCD()
+		else if option is 5 call editCD()
+		else if option is 6 call mathBreak()
+Call getMainMenuOption() to get next option
+
+Function getMainMenuOption()
+1. Repeat:
+		Display Main Menu
+			1. Read Collection
+			2. Display Collection
+			3. Sort Collection
+			4. Find a CD
+			5. Edit a CD
+			6. Math Break
+			7. Quit
+		Read Option
+		
+		if Option is invalid <1 or >6
+			display option not valid
+			
+	while the option is invalid	
+	
+2. Return option	
+	
+Function mathBreak()
+1. call mathBreakOption()
+2. while option is not 3 to qiit
+		if option equals 1 call evenODd()
+		else if option equals 2 call primeNumber()
+		Call MathBreakOption() to get next option
+
+Function mathBreakOption()
+1. Repeat:
+		Display MAth Break Menu
+			1. Even or Odd
+			2. Prime Number
+			3. Quit
+		read option
+			
+		if option is invalid <1 or >3
+			display option is invalid
+	while the option is invalid <1 or >3
+
+2. Return Option 
+
+Function evenOdd()
+1. Call getValidNum() to get first number
+2. While number is not 0 
+		call isEven to find is the number is even or odd
+		if number is even display "number" is even
+		else display "number" is odd
+		call getValidNum() to get next number
+	
+function isEven()
+	1. if number % 2 is uqual to 0 
+		   Answer is true and equals is even
+	
+	   else Answer is False - is odd
+	
+	2. Return Answer
+	
+	
+Function primeNumber()
+1. Call getValidNum() to get the first number
+2. while number is not zero
+	if number is equal to 1 
+		display "Prime numbers start at 2"
+	else if call to isPrime returns true 
+		display "number" is prime
+	else 
+		display "number" is not prime
+	Call getValidNum() to get next number
+
+
+Function isPrime()
+1.	Set counter to 2
+2.	Set prime to true
+3.	While counter < number passed in and prime is true
+If counter divides evenly into number
+	Set prime to false
+4.	Return prime
+
+Function getValidNum()
+1.	Read number
+2.	While number is invalid <0
+Display error message
+Read number
+3.	Return number
+
+Function readCollection()
+1. Set success equal to 0 
+2. open CD file
+3. if CD file is opened
+		Read in Artist, Title, and Year of album
+		Set those values into Array
+		close CD file 
+		set success equal to 1
+	else 
+		display Error opening file
+4.	return success
+
+displayCollection()
+1. Display "album information"
+2. Display "artist, title, year released"
+3. Use array to call getArtist(), getTitle, getYear to display the Artist, Title, and Year
+
+Function sortCollection()
+1. Set smallestArtist equal to the first Artist element in array
+2. While in array, if inner element is less than smallestArtist, smallestArtist takes inners place in sort and
+   the inner array becomes smallestArtist. 
+
+Function findCD()
+1. Set Search varible to false for artist and title
+2. Ask user for artist name
+3. While user artist name is true, ask user for title name
+4. If User artisy name and user title name is true display "CD is in Collection"
+5. Else display "CD is not in collection 
+
+Function editCD()
+1. is a stub 
+

@@ -1,0 +1,5 @@
+(*pRect).width = 10;
+
+or 
+
+pRect -> width = 10;

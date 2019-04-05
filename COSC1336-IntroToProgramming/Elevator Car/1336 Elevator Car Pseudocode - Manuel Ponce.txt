@@ -1,0 +1,178 @@
+﻿// Program The Elevator Car 
+// Description: 
+// 	Ths Program simulate the operation of an elevator moving from the
+	first to the 15th floor with people getting on and off.
+// Author: Manuel Ponce 
+// Date: 9/23/2016
+// Revised: 
+// 	9/26/2016
+	9/27/2016
+
+// list libraries used
+
+// Declare global constants
+
+Constant Integer ELEVATOR_CAPACITY = 20
+
+Main Program
+
+    // Declare variables
+
+	Integer passengers = 0
+	Integer floor = 1
+
+	Integer gettingOff1 = 0
+	Integer gettingOn1 = 15
+
+	Integer gettingOff2 = 7
+	Integer gettingOn2 = 2
+	
+	Integer gettingOff3 = 2
+	Integer gettingOn3 = 3
+
+	Integer gettingOff4 = 5
+	Integer gettingOn14 = 5
+
+	Integer gettingOff5 = 3
+	Integer gettingOn5 = 10
+
+	Integer gettingOff6 = 0
+	Integer gettingOn6 = 2
+
+	Integer gettingOff7 = 0
+	Integer gettingOn7 = 0
+
+	Integer gettingOff8 = 3
+	Integer gettingOn8 = 0
+
+	Integer gettingOff9 = 0 
+	Integer gettingOn9 = 2
+
+	Integer gettingOff10 = 4
+	Integer gettingOn10 = 5
+
+	Integer gettingOff11 = 5
+	Integer gettingOn11 = 0
+
+	Integer gettingOff12 = 3
+	Integer gettingOn12 = 6
+
+	Integer gettingOff14 = 17
+	Integer gettingOn14 = 1
+
+	Integer gettingOff15 = 2
+	Integer gettingOn15 = 0
+
+	
+    // at floor one
+	Display “ding”
+	Display “First floor”
+	Set passengers = passengers – gettingOff1
+	Set passengers = passengers + gettingOn1
+	Set floor = floor + 1
+
+    // at floor two
+	Display “ding”
+	Display “Second floor”
+	Set passengers = passengers – gettingOff2
+	Set passengers = passengers + gettingOn2
+	Set floor = floor + 1
+
+	
+	// at floor three
+	Display “ding”
+	Display “Third floor”
+	Set passengers = passengers – gettingOff3
+	Set passengers = passengers + gettingOn3
+	Set floor = floor + 1
+
+	
+	// at floor four
+	Display “ding”
+	Display “Fourth floor”
+	Set passengers = passengers – gettingOff4
+	Set passengers = passengers + gettingOn4
+	Set floor = floor + 1
+
+	
+	// at floor five
+	Display “ding”
+	Display “Fifth floor”
+	Set passengers = passengers – gettingOff5
+	Set passengers = passengers + gettingOn5
+	Set floor = floor + 1
+	
+	
+	// at floor six
+	Display “ding”
+	Display “Sixth floor”
+	Set passengers = passengers – gettingOff6
+	Set passengers = passengers + gettingOn6
+	Set floor = floor + 1
+	
+	
+	// at floor seven
+	Display “ding”
+	Display “Seventh floor”
+	Set passengers = passengers – gettingOff7
+	Set passengers = passengers + gettingOn7
+	Set floor = floor + 1
+	
+	// at floor eigth
+	Display “ding”
+	Display “Eighth floor”
+	Set passengers = passengers – gettingOff8
+	Set passengers = passengers + gettingOn8
+	Set floor = floor + 1
+	
+	
+	// at floor nine
+	Display “ding”
+	Display “Ninth floor”
+	Set passengers = passengers – gettingOff9
+	Set passengers = passengers + gettingOn9
+	Set floor = floor + 1
+	
+	
+	// at floor ten
+	Display “ding”
+	Display “Tenth floor”
+	Set passengers = passengers – gettingOff10
+	Set passengers = passengers + gettingOn10
+	Set floor = floor + 1
+	
+	
+	// at floor eleven
+	Display “ding”
+	Display “eleventh floor”
+	Set passengers = passengers – gettingOff11
+	Set passengers = passengers + gettingOn11
+	Set floor = floor + 1
+	
+	
+	// at floor twelve
+	Display “ding”
+	Display “Twelfth floor”
+	Set passengers = passengers – gettingOff12
+	Set passengers = passengers + gettingOn12
+	Set floor = floor + 2
+	
+	// at floor fourteen
+	Display “ding”
+	Display “Fourteenth floor”
+	Set passengers = passengers – gettingOff14
+	Set passengers = passengers + gettingOn14
+	Set floor = floor + 1
+	
+	// at floor fifteen
+	Display “ding”
+	Display “Fifteenth floor”
+	Set passengers = passengers – gettingOff15
+	Set passengers = passengers + gettingOn15
+	Set floor = floor + 1
+	
+End Program
+
+
+Notes - Display the people who get off and get on and 
+		display total people in elevator

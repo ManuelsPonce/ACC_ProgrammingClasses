@@ -1,0 +1,72 @@
+i. Fill in the Blank and Short Answer 1-19
+
+1)Linear search
+2)Binary
+3)Linear search
+4)Binary search
+5)N/2
+6)N
+7)First
+8)central
+9)1/9
+10)11
+11)Ascending
+12)Decending
+13)One
+14)one
+15)No number exchanges on previous pass
+16)N
+17)Bubble sorts has to make many data exchanges to place a value in its correct position.
+   Selection sort determines which value belongs in the position currently ordered next value 
+   and then places the value directly there.
+18)Selection sort because it moves elements directtly to the correct element place 
+19)	Linear search (average). 50, 500, 5000, 50000, 500000
+	Linear Search (Maximum). 100, 1000, 10000, 100000, 1000000
+	Binary Search (Maximum). 7, 10, 14, 17, 20
+
+ii. Algorithm Workbench 20-21
+
+20)	
+	void swapint(int a, int b)
+	{
+	int temp
+	temp=a
+	a=b
+	b=temp
+	}
+	void swapname(name a,name b)
+	{
+	name temp;
+	temp=a
+	a=b
+	b=temp
+	}
+
+	main()
+	{
+	arryas empName[numEmp] and empID[numEmp]
+	for(int i=1;i<=numEmp;i++)
+	{
+	for(int j=1;j<=numEmp;j++)
+	{
+	if(empID[j] {
+	swapint(empID[i],empID[j])
+	swapname(empName[i],empName[j])
+	}
+
+21)
+	a. index = desiredID -101
+
+	b. Linear search starting from the last array element and working backwards until the item is found
+	   or until a smaller Id is encountered, meaning the ID is not in the array. 
+		index = 229
+		position = -1 
+		found = false 
+		while index >= 0 and array[index].customerID >= desiredID and not found
+			if array[index].customerID = desiredID
+				found = true
+				position = index
+			end if 
+			decrement index 
+		end while
+		return position

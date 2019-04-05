@@ -1,0 +1,97 @@
+//Declare Function Prototype
+	Void EvenOdd
+	Void primeNumber
+	Bolean isEven
+	Bolean isPrime
+
+Main Function
+	//Declare Variables
+	Integer maninMenuOption
+	Integer mathBreakOption
+	Integer mathMenuChoice
+	
+	Display a Main menu that Displays two options
+	First option is Math Break
+	Second Option is Quit
+	take input from user
+	
+	While Users input is not valid display Error and take input again until a valid input is given 
+	While user does not input quit continue to the math break menu
+	
+	Display a Math Break Menu with 3 options
+	Fist option is Odd or Even game
+	Second Option is Prime number game
+	third option is to quit the Math Break and Return to Main Menu
+	Take input from User
+	
+	While Input from user is not valid display error and take input again until they give valid input
+	
+	if the users imput is not quit and chooses option Odd/Even
+		Call the function "evenOdd"
+	
+	else 
+		call Function "primeNumber"
+	
+	Repeat until User inputs the quit option to end the program
+		
+Function evenOdd
+	//Declare variables
+	Integer oddEvenInteger
+	
+	Ask User for an integer greater than or equal to 1 to check if it is even or odd or user inputs zero to quit
+	Take users input
+	validate users input to make sure its valid, if not valid dispolay error message and take input again
+	while the user did not input zero and inpout is valid call a function "isEven" that checks if the integer is Even or odd
+	
+	if the integer is even 
+		display Integer oddEvenIntger is even
+		
+	else
+	display Integer oddEvenInteger is odd
+	
+	repeat until user enters zero as an integer to quit evenOdd function and return to Math Break Menu
+	
+Bolean isEven function
+	//Declare variables
+	bolean oddEvenAnswer
+	
+	if integer % 2 is uqual to 0 
+		Bolean oddEvenAnswer is True
+	
+	else 
+		Bolean oddEvenAnswer is False
+	
+	Return Bolean oddEvenAnswer
+	
+	
+Function primeNumber
+	//Declare Variables
+	Integer primeInteger
+
+	Ask User for an integer greater than or equal to 1 to check if it is even or odd or user inputs zero to quit
+	Take Users input
+	validate users input to make sure its valid, if not valid display error message and take input again
+	while the user did not input zero and input is valid call a function "isPrime" that checks if the integer is Prime
+
+	if primeInteger is prime
+		Display Integer primeInteger is Prime
+		
+	else 
+		Display Integer primeInteger is Not Prime
+	
+	Repeat until user inputs a Zero to quit the primeNumber game and return to Math Break Option
+
+Bolean isPrime Function
+	//Declare variables
+	Bolean primeAnswer
+	Integer primeDevisor
+		
+	for Integer primeDevisor equaling 2, Integer primedevisor is less than Number, then incrament Integer primeDeviser
+	
+		if Number % Integer primeDevisor is equal to zero 
+			Bolean primeAnswer is equal to False
+		
+		else 
+			Bolean primeAnswer is equal to True
+			
+	return Bolean primeAnswer

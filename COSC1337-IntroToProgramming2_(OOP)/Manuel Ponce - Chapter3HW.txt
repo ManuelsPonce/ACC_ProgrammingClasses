@@ -1,0 +1,77 @@
+Manuel Ponce chapter3 hw
+
+i.Short Answer
+
+	1) A. cin >> description;
+	   B. getline (cin, description); 
+	2)char name [35];
+	3)A. cin >> setw(25) >> name;
+	  B. cin.getline(name, 25);
+	4)cin >> age >> pay >> section;
+	5)iostream, iomanip
+	6)char city[31];
+	7)char city[31]; 
+	8)5, 22, 20, 6, 46, 30, 0, 3, 16
+	9)A. a = 12 * x;
+	  B. z = (5 * x) + (14 * y) + (6 * k);
+	  C. y = pow(x, 4);
+	  D. g = (h + 120) / (k * 4);
+	  E. c = pow(a, 3) / (pow(b, 2) * pow(k, 4));
+	10) To make the calculation it will turn to a float and then to store it will convert to a double
+	11) 8
+	12) unitsEach = static_cast<double>(qty) / salesReps;
+	13) const int RATE = 12;
+	14) x+= 5;
+	    total += subtotal;
+		dist /+rep;
+		ppl *=periodl;
+		inv -= shrinkage;
+		num %= 2;
+	15)east = west = south = north = 1;
+	16)count = sales = orders = 0;
+	   start = day = 1;
+	17) int sum = 0;
+	18) no it cannot be initialized after it is defined 
+	19) cout << fixed << showpoint << setprecision(2); 
+		cout << setw(8) << divSales;
+	20) cout << fixed << showpoint << setprecision(4); 
+		cout << setw(12) << profit;
+	21)A. cmath
+	   B. fstream
+	   C. iomanip
+	   D. cstdlib
+ii.Algorithm Workbench
+
+	22) discountPercent = .15
+	    Input salesAmount
+	    amountSaved = salesAmount * discountPercent
+	    amountDue = salesAmount - amountSaved
+	    Display amountSaved, amountDue
+
+	23) Input score1
+	    Input score2
+	    Input score3
+	    average = (score1 + score2 + score3) / 3
+	    Display average
+
+	24) Input maxCredit
+	    Input creditUsed
+	    availableCredit = maxCredit - creditUsed
+	    Display availableCredit
+
+	25) pi = 3.14
+	    pricePizza12_inches = 14.95
+	    pricePizza14_inches = 17.95
+	    areaOfPizza12 = pi * pow(6, 2)
+	    areaOfPizza14 = pi * pow(7, 2)
+	    pricePerSquareInch12 = pricePizza12_inches / areaOfPizza12
+	    pricePerSquareInch14 = pricePizza14_inches / areaOfPizza14
+	    Display pricePerSquareInch12, pricePerSquareInch14
+
+iii.Predict the Output
+
+	26) A. Your monthly wages are 3250
+	    B. 6 3 12
+	  
+	27) A. Hello George
+	    B. Hello George Washington

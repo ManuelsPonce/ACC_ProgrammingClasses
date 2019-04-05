@@ -1,0 +1,86 @@
+i. Fill in the Blank and Short Answer (1-32)
+
+1. header
+2.void
+3.showValue(5);
+4.definition, prototype
+5.arguments
+6)paramaters
+7)value
+8.prototype
+9.local
+10.global
+11.global
+12.0
+13.local
+14.static
+15.return
+16.default
+17.last
+18.constant
+19.reference
+20.&
+21.reference
+22.exit
+23.parameters list
+24.you can call the function all throughout the program easily without repeated code also
+	makes the program easier to read and manage.
+25.Argument is a value passed to a function.
+	A parameter variable is a variable local to the function which receives the argument
+26.Yes, the first argument is passed into the first parameter value inside the function header
+	and goes the same way for 2,3,4...
+27.function overloading means more than one function in the program with the same name but
+	different parameter list
+28.
+29.when you want the function to change the value of a variable that is defined in 
+	the calling function.
+30.with a return statement
+31.yes but only within that function the local variable can be seen
+32.when you need the function to retain a value between function calls
+
+ii.Algorithm Workbench (33-38)
+33.double half(double num)
+	{
+		return num / 2;
+	}
+34. result = cube(4);
+35. void timesTen(int num)
+	{
+	cout << num * 10;
+	}
+36.display(age, income, initial);
+37.
+void getNumber(int &num)
+	{
+		cout << "Enter a number 1 – 100 : ";
+		cin >> num;
+		while (num < 1 || num > 100)
+		
+		{
+			cout << "That number is out of range. (1-100)\n";
+			cin >> num;
+		}
+		
+	}
+
+38)int biggest(int num1, int num2, int num3)
+	{
+
+       if(num1 >= num2 && num1 >= 3)
+	   
+			largest = num1;
+
+       elseif(num2 >= num1 && num2 >= 3t)
+	   
+			largest = num2;
+			
+		elseif(num3 >= num2 && num3 >= 1)
+			
+			largest = num3;
+		
+		else 
+		
+
+       return largest;
+	   
+	}   

@@ -1,0 +1,89 @@
+i) Fill in the blank 1-30
+
+1)size declarator
+2)integer, 0 
+3)subscript
+4)0
+5)size declerator, subscript
+6)bounds
+7)initializer
+8)zero
+9)initialization list
+10)5, 5 doubles 
+11)subscripts
+12)assignment = 
+13)value
+14)address, or name
+15)multi dimensional
+16)rows and columns 
+17)two
+18)braces
+19)column
+20)reference
+21)a.10, b. 0, c. 9, d. 40
+22)2 14 8
+23)a. 3, b. 0
+24)a. illegal b. illegal c. illegal
+25)Not covered
+26)same size
+27)a. 8, b. 10, c. 80, d. sales[7][9] = 3.52; 
+28)Car collection[25]
+29)car forSale[35] = {car("ford", "taurus", 2006, 21000),
+					  car("honda", ""accord", 2004, 11000),
+					  car("jeep", "wrangler", 2007, 24000) };
+30)for (int index = 0; index < 35; index++)
+{
+	cout << vehicle[index].carMake << endl;
+	cout << vehicle[index].carModel << endl;
+	cout << vehicle[index].yearModel << endl;
+}
+
+ii) Algorithm Workbench 31-36
+
+31)for (int index = 0; index < 25; index++)
+	array2[index] = array1[index] 
+	
+32)No, the correct sum will not be printed for numberArray2 because the
+	accumulator (total) is not set back to zero before the second loop executes. 
+
+33)struct PopStruct
+{ string name; 
+  long population;
+};
+popStruct country[12];
+ifstream dataIn;
+dataIn.open("pop.dat");
+for (int index = 0; index < 12; index++)
+{ getline(dataIn, country[index].name);
+  dataIn >> country[index].population;
+   dataIn.ignore();
+}
+datin.close();
+
+34)int main()
+{
+    int temp[7][24]; 
+	//tuesday = 2, noon = 12;//
+	cout << "Enter the two dimentional array with rows as days of the week and time as columns";
+	for (int d = 0; d < 7; d++)
+	{ for (int h = 0; h < 24; h++)
+		{ cin >> temp[d][h]; }
+	int teusdaySum = 0, tuesdayAverageTemp; 
+	int noonTotal = 0, noonAverage;
+	
+	for (int i = 0; i < 24; i++)
+	{ tuesdaySum += temp[2][i[; }
+	tuesdayAverageTemp = teusdayTotal / 24;
+	
+	cout << " the average for teusday is: " << teusdaAverageTemp << endl;
+
+	for (int i = 0; i < 7; i++)
+	{noonTotal += temp[i][12];}
+	noonAverage = noonTotal / 7;
+	
+	cout << " the average weekly noon tempurature is: " << noonAverage << endl;
+	
+	
+35) int id;[10];
+for(int emp = 0; emp < 10; emp++)
+	cout << id[emp] << " " << grossPay[emp] << endl;

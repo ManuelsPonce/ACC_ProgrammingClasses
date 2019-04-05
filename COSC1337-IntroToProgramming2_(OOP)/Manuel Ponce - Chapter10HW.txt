@@ -1,0 +1,57 @@
+------Manuel Ponce------
+-----Chapter 10 HW------
+
+i.Fill in the Blank and Short Answer 1-32
+
+1) Adress
+2) Ampersand &
+3) pointers
+4) Indirection *
+5) Pointers
+6) Dynamic Memory Allocation
+7) New
+8)bad_allo
+9) Null
+10) Delete
+11) New
+12) helps work with variables the pointer point to 
+13) Sending *iptr to cout will display 7. Sending iptr to cout will display adress of x
+14) indirection and multiplication
+15) You can increment or decrement a pointer using ++ and --, you can add integers to a pointer, and you can subrtract also.
+16)the pointer will move 4 integers forward in the memory
+17)8
+18)It is used to allocate memory for variables at runtime
+19)if new fails to allocate the requested amount of memory, it throws the bad_allo.
+20)When the variable pointed to is NOTlocal to the function
+21)delete is used to deallocate memory allocated by new
+22) With a pointer to a constant, the variable pointed to cannot be changed. With a pointer to a constant, the pointer itself can be changed. With a constant pointer, the pointer itself cannot be changed
+	With a constant pointer, the variable it points to can be changed
+23)const int *p;
+24)const int* ptr;
+25)smart pointers keep track of the owners of the resource and automatically deallocate the resource when the last owner goes out of scope 
+26) unique_ptr
+27)the managed object is deallocated
+28)
+29)shared_ptr
+30)
+31)make_shared has lower overhead than the shared_ptr constructor
+32)
+
+ii.C++ Language Elements 33-34
+
+33)change(&i);
+34)modify(&i);
+
+iii.Algorithm Workbench 35-36
+
+35)void exchange(int *p, int *q)
+	{
+		int temp  = *p;
+		*p = *q;
+		*q = temp;
+	}
+36)
+
+iV.Predict the Output 37
+
+37)30, 30, 0, 0, 20, 10, 10, 20

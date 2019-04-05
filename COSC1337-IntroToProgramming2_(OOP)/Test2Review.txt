@@ -1,0 +1,39 @@
+----TEST 2 REVIEW----
+  ****CH. 7-9****
+
+1)c++ member function that changes or stores a value a value: Setters or Mutators
+2)retreaves the values from member functions: Accessors or Gettersin 
+3)In a class you can have a member variable that is actually an instance of another class: Object Composition pg. 442
+4)a constructor has to have the same name as: The class
+5)What does a destructor do?: Called at the end ofa scope to destroyed the object and deallocate the memory
+6)algorithm that arranges some data: sorting algorithm 
+7)searching algorithm: looka for some data
+8)member function that can only be called from a function that is a memberof the class: private functions
+9)2 sorts: Bubble and selection sorts. Selection is more efficient, easy to implament
+10)2 searches: bianary and linear, bianary is way more efficient but only if data is ordered 
+11)Display contents of an array: iterate with a for loop, printing the array will print the array memory adress
+12)how to create an instence of an object
+13)Objects create permit data holding can keep functions outside the class from knowing the names of the variables holding the data: all of the above
+14)operator to invoke a public function for a class: dot operator
+15)how do you referencde individual elements of an array: index or subscript, starts with zero base indexing
+16)advantage of a linear search: data doesnt have to be ordered and it is simple
+17)boundling of an objects data and procedures: encapsulation
+18)implicit array sizing: put empty brackets when initiating the array with curly braces and the amount of elements inside is the sizing
+19)linear search of 1000 elements: 1000 comparisons
+20)what kind of structure doyou usually use to process an array: a for loop
+21)T/F - a binary search requires elements in ordered: True
+22)T/F - A class decleration provides a pattern for creating objects, so when a class is created, it automatically creates an object: False, needs an instance
+23)T/F - A one dimentional array can be initialized at the time it is difined but a two dementional array cannot: False
+24)T/F - A one dimentional arrat can only store elements of a single data type but a two dimentional array can store elements of two type: false 
+25)T/F - An individual array element can be processed or passed to a function lieka normal variable: true
+26)T/F - c++ allows arrays to have two or more dimentions: True
+27)T/F Object oriented programming is centered around both data and funcions that operate on them: True, so objects
+28)how is an array passed as an argument by default: passed by reference and may be changed in a function, if not desire for mutators, put a constant before it
+29)when you have a construtor that doesnt require any arguments: default constructor
+30)when you have a destructor, what symbol do you use: ~ tilde 
+31) when you declare your funcion outside of a class, what symbol is used: "::", scope resolution
+32)when you have more than one array that is related to each other through positions of the elements: parallel arrays
+33)whats the difference between ascending and decending: small to big, big to small
+34)whats an inline function and what can be called in it: its with a class, short and put inside the class definition
+35)when you create an object: you create an instance of the object
+36)What is abstraction: A concept to create a general model of something

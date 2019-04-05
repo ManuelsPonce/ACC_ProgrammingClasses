@@ -1,0 +1,101 @@
+Manuel Ponce Chapter2 hw.
+
+i.Fill in the Blank and Short Answer
+
+	1)semicolon
+	2)iostream
+	3)main()
+	4)# (Pound sign)
+	5){} Opening and closing braces
+	6)Integer Literals, String Literals, Character literal
+	7)9.7865E12
+	8)1 byte, 2 bytes
+	9) a. valid
+	   b. invalid
+	   c. valid
+	10)a.invalid 
+	   b.valid
+	   c.invalid
+	11)a.valid
+	   b.invalid
+	   c valid (but does not print Hello as a string)
+	12)a.valid
+	   b.invalid
+	   c.valid
+	13)a.11
+	   b.14
+	   c.3.5 but only the 3 will appear because asigned as integer
+	14)a.9
+	   b.14
+	   c.2
+	15)double temp, 
+	          weight,
+			  height;
+	16)int months = 2,
+		   days,
+		   years = 3;
+	17)int i;
+	   double d1,
+	          d2;
+	   char c;
+	   a. d2 = d1 + 2;
+	   b. d1 = d2 * 4;
+	   c. c = 'k';
+	   d. i = 'k';
+	   e. i = i - 1;
+	   
+	18)a. d1 = d2 - 8.5;
+	   b. d2 = d1 / 3.14;
+	   c. c = 'F';
+	   d. i = i + 1;
+	   e. d2 = d2 + d1;
+
+	19)
+	
+		cout << "Two mandolins like creatures in the \n\n\n";
+		cout << "dark n\n\n\";
+		cout << "Creating the agony of ecstasy. n\n\n\";
+		cout << "                             -George Barker";
+		
+	20)
+	
+		cout << "L \n"
+			 << "E \n"
+			 << "A \n"
+			 << "F \n";
+			 
+ii.Algorithm Workbench
+
+	21) Input weeks 
+		days = weeks * 7
+		Display days 
+		
+	22) Input eggs 
+		cartons = eggs / 12  //interger devision 
+		Display cartons
+		
+	23) Input speed 
+		Input time 
+		distance = speed * time 
+		Display distance 
+		
+	24) Input miles
+		Input gallons
+		milesPerGallon = miles / gallons
+		Display milesPerGallon
+		
+iii.Predict the Output
+
+	25)a. 0, 100
+	   b. 8, 2
+	   c. I am the incrediblecomputing
+	      machine 
+		  and I 
+		  amaze
+		  you.
+		  
+	26)a. Be careful!
+		  This might/n be a trick question.
+		
+	   b. 23, 1
+		

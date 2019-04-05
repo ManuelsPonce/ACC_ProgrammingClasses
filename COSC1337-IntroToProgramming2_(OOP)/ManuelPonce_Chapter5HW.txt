@@ -1,0 +1,111 @@
+//Manuel  Ponce Chapter 5 HW
+//i. Fill in the Blank  1-26
+
+1)increment
+2)decrement
+3)Prefix
+4)postfix 
+5)body 
+6)iteration
+7)pretest
+8)posttest
+9)infinite
+10)counter
+11)running total
+12)accumulator
+13)sentinal
+14)for
+15)do-while
+16)while, for
+17)initialization, test, update
+18)nested loop
+19)break
+20)continue
+21)fstream
+22)output file
+23)It will be erased and a new file withe the same name will be created.
+24)input file
+25)read position = a special value, the first byte of the file.
+26)close the file
+
+//ii. Algorithm Workbench 27-38
+
+27)int num;
+	cin >> num;
+	num *= 2;
+	while (num < 50)
+	{ cout << num << endl;
+	num *- 2;
+	}
+28)do
+	{
+	double num1, num2;
+	char again;
+	cout << "Enter two numbers: ";
+	cin >> num1 >> num2;
+	cout << "Their sum is " << (num1 + num2) << endl;
+	cout << "Do you wish to do this again? (Y/N) ";
+	cin >> again;
+	} while (again == 'Y' || again == 'y');
+29)for (int x = 0; x <= 1000; x += 10)
+		cout << x;
+30)int product = 0, num;
+	while (product < 100)
+	{
+		cin >> num;
+		product = num * 10;
+	}
+31)for (int row = 1; row <= 3; row++)
+	{ for (int star = 1; star <= 5; star++)
+			cout<< '*';
+		cout << ednl;
+	}
+32)for (int row = 1; row <= 10; row++)
+	{ for (int pound = 1; pound <= 15; pound++)
+			cout<< '#';
+		cout << endl;
+	}
+33)char doAgain;
+	int sum = 0;
+		
+	cout << "This code Will increment sum 1 or more times. \n ";
+	do 
+	{ sum++;
+			cout << "Sum has been incremented. "
+				<< "Increment it again (Y/N)? ";
+			cin >> doAgain;
+	}while ((doAgain == 'y' || (doAgain == 'Y'));
+	
+	cout << "sum was incremented " << sum << "times. /n ";
+34)int number; 
+	cout << "Enter an even number: ";
+	cin >> number;
+	while (number % 2 != 0)
+	{
+		cout << "Number must be even. Please reenter number. ";
+		cin >> number;
+	}
+35) for int (count = 0; count < 50; count++)
+		cout << "Count is " << count << endl;
+36)int x = 50;
+	while (x > 0)
+	{
+		cout << x << "seconds to go. \n ";
+		x--;
+	}
+37) for (int num = 1; num <= 50; num++)
+	outfile << num << " ";
+38)cout << "The numbers stored in the file: ";
+	for int num = 1; num <50; num++)
+	{	inputFile >> num; 
+		cout << num << endl;
+	}
+
+//iii. predict the output 39-42
+
+39)nothing will print because of the semi colon after the loop statement.
+40)10
+41) 2 4 6 8 10
+42  $9999
+	$9999
+	$9999

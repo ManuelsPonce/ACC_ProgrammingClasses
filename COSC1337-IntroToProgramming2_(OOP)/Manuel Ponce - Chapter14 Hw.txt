@@ -1,0 +1,26 @@
+Manuel Ponce
+HW Chapter 14
+
+i.Fill in the Blank and Short Answer 1-6
+
+1.Indirect recursion. There are more function calls to keep up with 
+2.Recursion, because of the overhead involved with calling a function in C++. Memory must be allocated and addresses must be stored.
+3.When the problem is more easily solved with recursion, and the recursive calls do not repeatedly solve same subproblems.
+4.depth
+5.Direct
+6.Indirect
+
+ii.Predict the Output 7
+7.	a) 55
+	b)**********
+	  *********
+	  ********
+	  *******
+	  ******
+	  *****
+	  ****
+	  ***
+	  **
+	  *
+
+	c)evE dna madA

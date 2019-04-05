@@ -1,0 +1,202 @@
+////////////////////////
+/ Lab 7 - Manuel Ponce /
+////////////////////////
+CD Class
+
+//Declare Function Prototype
+	Void EvenOdd
+	Void primeNumber
+	Bolean isEven
+	Bolean isPrime
+
+Main Function
+1.	Call getMainMenuOption() to get first option
+2.	While option is not 10 (quit)
+		if option is 1 call readCD()
+		else if option is 2 call displayCollection()
+		else if option is 3 call sortCollection()
+		else if option is 4 call findCD()
+		els if option is 5 call findCDRecursive()
+		else if option is 6 call editCD()
+		els if option is 7 call addTracks()
+		else if option is 8 call deleteTracks()
+		else if option is 9 call mathBreak()
+
+Call getMainMenuOption() to get next option
+
+Function getMainMenuOption()
+1. Repeat:
+		Display Main Menu
+		1. Read Collection 
+		2. Display Collection 
+		3. Sort Collection 
+		4. Find a CD 
+		5. Find a CD (Recursive Version) 
+		6. Edit a CD 
+		7. Add Tracks for a CD 
+		8. Delete All Tracks for a CD 
+		9. Math Break 
+		10. Quit 
+		Read Option
+		
+		if Option is invalid <1 or >10
+			display option not valid
+			
+	while the option is invalid	
+	
+2. Return option	
+	
+Function mathBreak()
+1. call mathBreakOption()
+2. while option is not 4 to qiit
+		if option equals 1 call evenODd()
+		else if option equals 2 call primeNumber()
+		Call MathBreakOption() to get next option
+
+Function mathBreakOption()
+1. Repeat:
+		Display MAth Break Menu
+			1. Even or Odd
+			2. Prime Number
+			3. Reverse String
+			4. Quit
+		read option
+			
+		if option is invalid <1 or >4
+			display option is invalid
+	while the option is invalid <1 or >4
+
+2. Return Option 
+
+Function evenOdd()
+1. Call getValidNum() to get first number
+2. While number is not 0 
+		call isEven to find is the number is even or odd
+		if number is even display "number" is even
+		else display "number" is odd
+		call getValidNum() to get next number
+	
+function isEven()
+	1. if number % 2 is uqual to 0 
+		   Answer is true and equals is even
+	
+	   else Answer is False - is odd
+	
+	2. Return Answer
+	
+	
+Function primeNumber()
+1. Call getValidNum() to get the first number
+2. while number is not zero
+	if number is equal to 1 
+		display "Prime numbers start at 2"
+	else if call to isPrime returns true 
+		display "number" is prime
+	else 
+		display "number" is not prime
+	Call getValidNum() to get next number
+
+
+Function isPrime()
+1.	Set counter to 2
+2.	Set prime to true
+3.	While counter < number passed in and prime is true
+If counter divides evenly into number
+	Set prime to false
+4.	Return prime
+
+Function getValidNum()
+1.	Read number
+2.	While number is invalid <0
+Display error message
+Read number
+3.	Return number
+
+Function readCollection()
+1. Set success equal to 0 
+2. open CD file
+3. if CD file is opened
+		Read in Artist, Title, and Year of album
+		Set those values into Array
+		close CD file 
+		set success equal to 1
+	else 
+		display Error opening file
+4.	return success
+
+displayCollection()
+1. Display "album information"
+2. Display "artist, title, year released"
+3. Use array to call getArtist(), getTitle, getYear to display the Artist, Title, and Year
+4.After the Artist, Title, and Year are displayed, if theCD has tracks display them underneath numbereed and indented.
+
+Function sortCollection()
+1. Set smallestArtist equal to the first Artist element in array
+2. While in array, if inner element is less than smallestArtist, smallestArtist takes inners place in sort and
+   the inner array becomes smallestArtist. 
+
+Function findCD()
+1. Set Search varible to false for artist and title
+2. Ask user for artist name
+3. While user artist name is true, ask user for title name
+4. If User artist name and user title name is true display "CD is in Collection"
+5. Else display "CD is not in collection 
+
+editCD()
+
+1. Set Search varible to false for artist and title
+2. Ask user for artist name
+3. While user artist name is true, ask user for title name
+4. If User artist name and user title name is true call getEditOption()
+5. while edit option is not 4 user chooses if they want to edit the artist, title, year released.
+6. keep doing this until user choses 4 to quit
+
+editOneCD()
+1. Take in a pointer
+2. Make the changes the user called for in editCD() (Edit title, artist, or year)
+3. Set the new changes
+4. Display the new changes
+
+getEditOption()
+1. display a menu option with options to edit the artist, title, or year released
+2. make sure user enters valid option listed
+3. include option to quit
+
+addTracks()
+1.Find CD in array, if CD is not in array, Let the user know.
+2.Once the CD is found ask the user how many tracks they would like to add. Use the users input to 
+	invoke the object member function to set the number of tracks.
+3. Once invoked, ask user to input track names and store them into a new tracks array.
+
+deleteTracks()
+1. Find CD in array, if CD is not in array, Let the user know.
+2.Vairify the CD has tracks stored
+3.if CD has tracks delete them
+4. if CD does not have tracks let the user know
+
+
+
+Function findRecursiveCD()
+1. Set Search varible to false
+2. Ask user for artist name
+3. Ask user for title name
+4. Pass the cd array, the size of the array, the artist and title to recursionCD()( function to check to find cd
+5. If User artist name and user title name come back true display "CD is in Collection"
+6. Else display "CD is not in collection 
+
+bool recursionCD()
+1.if size = 0 return false
+2. if user artist that you passed to function and userTitle that was also passed = get artist and get  title from
+	array, return true.
+3. else call itself again with size-1 to move on to next element in array.
+
+stringReverse()
+1. prompt user for a string word
+2. pass the string to recursive function recursionReverse() to get reversed string
+3. display reversed string.
+
+recursionReverse()
+	if string lengh is not equal to the position
+		call recursionReverse() and pass word and position+1
+		then display the char in position.
+
